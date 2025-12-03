@@ -1,4 +1,4 @@
-ip = input("Podaj")
+ip = input("Podaj adres IPv4: ")
 
 def sprawdz(ip):
     if ip.count('.') != 3:
